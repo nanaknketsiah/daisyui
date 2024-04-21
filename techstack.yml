@@ -1,0 +1,281 @@
+repo_name: nanaknketsiah/daisyui
+report_id: d83aa8227d36a8d44aee665beb9eb91f
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-21T20:15:19+00:00'
+requested_by: saadeghi
+provider: github
+branch: master
+detected_tools_count: 21
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/nanaknketsiah/daisyui
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-06-07 09:51:40.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/experiments/compare/login-form/bootstrap/package-lock.json
+  detection_source: src/experiments/compare/login-form/bootstrap/package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-02-27 14:58:14.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-02-27 14:58:14.000000000 Z
+- name: Svelte
+  description: A UI framework that compiles into tiny standalone JavaScript modules
+  website_url: https://svelte.technology/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/6113/7exmJEg4_400x400.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/docs/package.json
+  detection_source: src/docs/package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-07-27 15:20:58.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-05-30 12:57:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/.github/workflows/deploy-docs.yml
+  detection_source: ".github/workflows/deploy-docs.yml"
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-06-11 15:18:58.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/docs/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-07-07 20:05:46.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/experiments/compare/login-form/bootstrap/package.json
+  detection_source: src/experiments/compare/login-form/bootstrap/package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-02-27 14:58:14.000000000 Z
+- name: DaisyUI
+  description: A customizable plugin for Tailwind which adds components
+  website_url: https://daisyui.com/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48516/default_dfb71fd0f2693f4157a1cc9ce86a7aa439068eb6.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/docs/package.json
+  detection_source: src/docs/package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-07-27 15:20:58.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.9
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/docs/package-lock.json
+  detection_source: src/docs/package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-07-27 15:20:58.000000000 Z
+- name: lodash.debounce
+  description: The lodash method `_.debounce` exported as a module
+  package_url: https://www.npmjs.com/lodash.debounce
+  version: 4.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16481/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/docs/package-lock.json
+  detection_source: src/docs/package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-02-27 14:58:14.000000000 Z
+- name: nanoid
+  description: A tiny
+  package_url: https://www.npmjs.com/nanoid
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/docs/package-lock.json
+  detection_source: src/docs/package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-04-05 06:17:09.000000000 Z
+- name: postcss-cli
+  description: CLI for PostCSS
+  package_url: https://www.npmjs.com/postcss-cli
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-07-07 19:43:26.000000000 Z
+- name: postcss-import
+  description: PostCSS plugin to import CSS files
+  package_url: https://www.npmjs.com/postcss-import
+  version: 15.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16086/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/docs/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-07-07 19:43:26.000000000 Z
+- name: postcss-nesting
+  description: Nest style rules inside each other
+  package_url: https://www.npmjs.com/postcss-nesting
+  version: 12.0.0
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18691/default_d0e31e7e33b4207236b4a3eb4b502cff85101c1d.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/docs/package-lock.json
+  detection_source: src/docs/package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-07-27 15:20:58.000000000 Z
+- name: randomcolor
+  description: A tiny script for generating attractive random colors
+  package_url: https://www.npmjs.com/randomcolor
+  version: 0.6.2
+  license: CC0-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18595/default_cdfbfc8ddc0cad865ade3e84444b993ccd8e67de.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/docs/package-lock.json
+  detection_source: src/docs/package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-04-20 22:33:14.000000000 Z
+- name: standard-version
+  description: Replacement for `npm version` with automatic CHANGELOG generation
+  package_url: https://www.npmjs.com/standard-version
+  version: 9.5.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16053/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-08-03 17:45:07.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/nanaknketsiah/daisyui/blob/master/src/docs/package-lock.json
+  detection_source: package.json
+  last_updated_by: Pouya Saadeghi
+  last_updated_on: 2023-05-30 12:57:22.000000000 Z
